@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<title>Ciencias Naturales</title>
+	<!-- coneccion con el CSS  -->
+	<link rel="stylesheet" href="styles.css" />
+</head>
+
+<body class="flex-container center-center">
+	<div id="app" class="flex-container">
+		<div class="register-container flex-vertical-container">
+			<h2>Curso de ciencias naturales</h2>
+			<!-- formulario para recopilar datos  -->
+			<form id="form1" class="flex-vertical-container" action="ciencias_naturales.jsp">
+				<div class="input-group">
+					<label for="nombre">Nombre</label>
+					<input placeholder="nombre" name="nombre" />
+				</div>
+
+				<div class="input-group">
+					<label for="cedula">Cedula</label>
+					<input placeholder="cedula" name="cedula" />
+
+				</div>
+				<div class="input-group">
+					<label for="curso">Fechas de inicio de curso </label>
+					
+					<div class="multiselect-container flex-container">
+						<div>
+						<input type="radio" id="julio" name="curso" value="20 de julio" />
+						<label for="julio">20 de julio</label>
+						</div>
+						<div>
+						<input type="radio" id="octubre" name="curso" value="24 de octubre" />
+						<label for="octubre">24 de octubre</label>
+						</div>
+						<input type="radio" id="noviembre" name="curso" value="14 de noviembre" />
+						<label for="noviembre">14 de noviembre</label>
+					</div>
+
+				</div>
+				<button type="submit">Enviar</button>
+			</form>
+		</div>
+	</div>
+
+</body>
+
+</html>
