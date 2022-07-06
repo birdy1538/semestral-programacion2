@@ -115,11 +115,15 @@ h3 {
 }
 
 /* Estilo los table datas de home.html*/
-td {
+#tablaHome {
 	vertical-align: top;
 	padding: 20px 15px 40px 5px;
 }
-
+/*Estilo de la tabla periódica de referencia*/
+td {
+  vertical-align: top;
+	padding: 0px 15px 15px 0px;
+}
 /* Estilo para los párrafos*/
 #parrafos {
 	font-family: Helvetica, sans-serif;
@@ -138,6 +142,7 @@ td {
   margin: 0px 40px 0px 40px;
 }
 
+
 #borokotroko {
   font-family: 'Open Sans', Arial, sans-serif;
 	display: block;
@@ -153,9 +158,10 @@ td {
 * {
   margin: 0;
   padding: 0;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  color: #ddefe3;
+  font-family: 'Open Sans', Arial, sans-serif;
+  color: #222222;
 }
+
 .background-1 {
   height: 100vh;
 
