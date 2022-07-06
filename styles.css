@@ -7,7 +7,7 @@
 .background-1 {
   height: 100vh;
 
-  background-image: url("Pagina1.jpg");
+  background-image: url("/Pagina1.jpg");
   background-color: black;
   background-position: center; /* Center the image */
   background-repeat: no-repeat; /* Do not repeat the image */
