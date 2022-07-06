@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Inicio</title>
+		<!--Se trae el archivo css externo-->
+		<link rel="stylesheet" href="styles.css" media="screen" />
+		<!--Se introduce el ícono de la pestaña-->
+		<link rel="icon" type="image/x-icon" href="logoicon.ico" />
+	</head>
+	<body>
+		<header>
+			<!--Se crea el encabezado de la página con el logo y el menú a un lado con la ayuda de flex-->
+			<nav class="menu">
+				<div>
+					<a href="welcome.html"
+						><img src="logo.png" alt="Logo" id="logoconfig"
+					/></a>
+				</div>
+				<ul>
+					<li>
+						<a href="home.html" id="active">INICIO</a>
+					</li>
+					<li>
+						<a href="deportes.HTML"
+							>CURSOS <img src="arrow.png" alt="arrowdown" id="arrowdown"
+						/></a>
+						<ul>
+							<li>
+								<a href="">Ciencias Naturales</a>
+							</li>
+							<li>
+								<a href="">Química & Biología</a>
+							</li>
+							<li>
+								<a href="">Programación</a>
+							</li>
+						</ul>
+					</li>
+					<li>
+						<a href="referencia.html">REFERENCIAS</a>
+					</li>
+					<li>
+						<a href="sobreNosotros.html">CONTÁCTANOS</a>
+					</li>
+				</ul>
+			</nav>
+		</header>
+		<section class="sectionsize">
+			<!--Se introducen las tres noticias nacionales con el uso de tablas-->
+			<h1 class="pagetitle">Inicio</h1>
+			<div>
+				<table class="newstable">
+					<tr>
+						<td class="tdhome">
+							<h2>
+								La ruta de los museos, honran la cultura y el arte panameño
+							</h2>
+							<p id="parrafos">
+								<img src="museocanal.jpg" alt="museocanal" class="imgconfig" />
+								“Los museos tienen el poder de transformar el mundo que nos
+								rodea. Como lugares incomparables de descubrimiento, nos enseñan
+								nuestro pasado y abren nuestras mentes a nuevas ideas, dos pasos
+								esenciales para construir un futuro mejor”, así lo declara el
+								Consejo Internacional de los Museos (ICOM) en conmemoración del
+								Día Internacional de los Museos a celebrarse el 18 de mayo bajo
+								el lema “El poder de los museos”, a fin de concienciar a las
+								personas acerca de la relevancia de los museos como medio para
+								el intercambio cultural.
+							</p>
+						</td>
+						<td class="tdhome">
+							<h2>Pituka Ortega: 'El cine panameño está destinado al éxito'</h2>
+							<p id="parrafos">
+								<img src="man.jpeg" alt="man" class="imgconfig" />
+								La directora del Festival Internacional de Cine de Panamá
+								detalló a este medio que el país está posicionándose fuertemente
+								en el ámbito cinematográfico y prueba de ello son las películas
+								'Domingo y la niebla' y 'Stars at Noon'; ambas contaron con
+								apoyo de la Fundación IFF y estarán presentes en el Festival de
+								Cannes este mes.
+							</p>
+						</td>
+						<td class="tdhome">
+							<h2>Movimientos populares mantienen protestas en Panamá</h2>
+							<p id="parrafos">
+								<img src="protestas.jpg" alt="protestas" class="imgconfig" />
+								Durante una asamblea general, los docentes reiteraron el llamado
+								a todos sus colegas a sumarse a las actividades de lucha,
+								mientras que los transportistas de las nueve rutas de autobuses
+								sostienen que la huelga continuará.
+							</p>
+						</td>
+					</tr>
+				</table>
+			</div>
+		</section>
+		<footer>
+			<!--El menú que se encuentra en el encabezado, ahora se coloca en el pie de la página, pero a la izquierda-->
+			<ul class="menu">
+				<li id="bottomenu">
+					<a href="home.html">Inicio</a>
+				</li>
+				<li id="bottomenu">
+					<a href="deportes.HTML">Deportes</a>
+				</li>
+				<li id="bottomenu">
+					<a href="internacionales.html">Internacionales</a>
+				</li>
+				<li id="bottomenu">
+					<a href="contacto.html">Contáctanos</a>
+				</li>
+			</ul>
+			<p id="borokotroko">Borokotroko Labs &copy;2022</p>
+		</footer>
+	</body>
+</html>
