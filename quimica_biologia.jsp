@@ -5,7 +5,7 @@
 
 <head>
   <meta charset="ISO-8859-1">
-  <title>Exito</title>
+  <title>Exito_qb</title>
 </head>
 
 <!-- coneccion con la base de datos  -->

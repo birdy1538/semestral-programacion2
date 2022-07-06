@@ -4,7 +4,7 @@
 <html>
 <head>
 <meta charset="ISO-8859-1">
-<title>Login</title>
+<title>Exito_Login</title>
 </head>
 <body>
 <%@page import="java.sql.*" %>
