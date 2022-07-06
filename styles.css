@@ -238,6 +238,9 @@ form a[href] {
   margin: 10px 7px;
   border-radius: 10px;
 }
+.elemento {
+  cursor: pointer;
+}
 .elemento:hover {
   background-color: #031fa2;
 }
