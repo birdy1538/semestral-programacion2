@@ -13,16 +13,19 @@ header {
 	font-family: 'Open Sans', Arial, sans-serif;
 	font-weight: 600;
 }
+
 header .menu {
 	display: flex;
 	justify-content: space-around;
 	align-items: center;
 }
+
 header .menu ul {
 	list-style: none;
 	display: flex;
 	justify-content: space-between;
 }
+
 .navbarLinks {
 	text-decoration: none;
 	font-size: 16px;
@@ -30,27 +33,38 @@ header .menu ul {
 	padding: 8px 15px;
 	display: block;
 }
+
 .navbarLinks:hover {
 	background: #a6bdad;
 	border-radius: 15px;
 }
+
 header .menu ul li ul {
 	display: flex;
 	flex-direction: column;
 }
+
 header .menu ul li ul {
 	position: absolute;
 	background: #ddefe3;
 }
+
 header .menu ul li ul li {
 	width: 180px;
 	position: relative;
 }
+
 header .menu ul li ul {
 	display: none;
 }
+<<<<<<< HEAD
 header .menu ul li:hover > ul {
 	display: block;
+=======
+
+header .menu ul li:hover>ul {
+  display: block;
+>>>>>>> 1ba92955b1bc8adeb7f6c5f210f1a9c74c36f4e8
 }
 
 /* El link del menú de la página en la que estemos posicionados 
@@ -103,6 +117,7 @@ h2 {
 	font-size: 25px;
 	vertical-align: top;
 }
+
 #labelHero {
 	font-size: 45px;
 	font-family: 'Open Sans', Arial, sans-serif;
@@ -165,55 +180,69 @@ td {
 	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 	color: #ddefe3;
 }
+
 body {
 	background-color: #01200f;
 }
+
 #app {
 	width: 100%;
 }
+
 .background-1 {
-	height: 100vh;
-	width: 100%;
-	background-image: url('/Pagina1.jpg');
-	background-color: black;
-	background-position: center; /* Center the image */
-	background-repeat: no-repeat; /* Do not repeat the image */
-	background-size: cover;
+  height: 100vh;
+  width: 100%;
+  background-image: url("./Pagina1.jpg");
+  background-color: black;
+  background-position: center;
+  /* Center the image */
+  background-repeat: no-repeat;
+  /* Do not repeat the image */
+  background-size: cover;
 }
+
 #login-path-1 {
 	position: absolute;
 }
+
 #login-path-2 {
 	position: absolute;
 	right: 0px;
 	bottom: 0;
 }
+
 #login-logo-1 {
 	position: absolute;
 	width: 200px;
 	z-index: 2;
 	margin: 50px;
 }
+
 #login-container {
 	height: 100vh;
 	background-color: rgba(0, 0, 0, 0.5);
 	width: 100%;
 }
+
 .flex-vertical {
 	display: flex;
 	flex-direction: column;
 	gap: 10px;
 }
+
 #register-path-1,
 #register-path-2 {
 	position: absolute;
 }
+
 #register-path-1 {
 	right: 0;
 }
+
 #register-path-2 {
 	bottom: 0;
 }
+
 #login-logo-2 {
 	position: absolute;
 	right: 0;
@@ -221,16 +250,20 @@ body {
 	z-index: 2;
 	margin: 25px;
 }
+
 .center-center {
 	justify-content: center;
 	align-items: center;
 }
+
 input {
 	padding: 7px 12px;
 }
+
 input {
 	color: black;
 }
+
 form button,
 form a[href] {
 	background: #104f55;
@@ -244,114 +277,181 @@ form a[href] {
 	margin: 10px 7px;
 	border-radius: 10px;
 }
+
 .elemento {
 	cursor: pointer;
 }
+
 .elemento:hover {
 	background-color: #031fa2;
 }
+
 form {
 	z-index: 10000;
 }
+
 .hero {
 	height: 500px;
 }
+
 .hero.ciencias-naturales {
+<<<<<<< HEAD
 	background-image: url('/zebras.jpg');
 	background-color: black;
 	background-position: center; /* Center the image */
 	background-repeat: no-repeat; /* Do not repeat the image */
 	background-size: cover;
+=======
+  background-image: url("./zebras.jpg");
+  background-color: black;
+  background-position: center;
+  /* Center the image */
+  background-repeat: no-repeat;
+  /* Do not repeat the image */
+  background-size: cover;
+>>>>>>> 1ba92955b1bc8adeb7f6c5f210f1a9c74c36f4e8
 }
+
 .hero.quimica {
+<<<<<<< HEAD
 	background-image: url('/Chemistry.jpg');
 	background-color: black;
 	background-position: center; /* Center the image */
 	background-repeat: no-repeat; /* Do not repeat the image */
 	background-size: cover;
+=======
+  background-image: url("./Chemistry.jpg");
+  background-color: black;
+  background-position: center;
+  /* Center the image */
+  background-repeat: no-repeat;
+  /* Do not repeat the image */
+  background-size: cover;
+>>>>>>> 1ba92955b1bc8adeb7f6c5f210f1a9c74c36f4e8
 }
+
 .hero.programacion {
+<<<<<<< HEAD
 	background-image: url('/Programming.jpg');
 	background-color: black;
 	background-position: center; /* Center the image */
 	background-repeat: no-repeat; /* Do not repeat the image */
 	background-size: cover;
+=======
+  background-image: url("./Programming.jpg");
+  background-color: black;
+  background-position: center;
+  /* Center the image */
+  background-repeat: no-repeat;
+  /* Do not repeat the image */
+  background-size: cover;
+>>>>>>> 1ba92955b1bc8adeb7f6c5f210f1a9c74c36f4e8
 }
+
 .hero-blur {
 	background-color: rgba(0, 0, 0, 0.5);
 	display: flex;
 	height: 100%;
 	font-size: 2em;
 }
+
 .course-form-continer h3 {
 	font-size: 2em;
 }
+
 .course-form-continer {
 	width: 100%;
 	margin: 20px 0;
 }
+
 .course-form {
 	width: 50%;
 	max-width: 500px;
 	gap: 25px;
 }
+
 .course-form label {
 	font-size: 1.2em;
 	font-weight: 700;
 }
+<<<<<<< HEAD
 .course-form input + label {
 	font-size: 1em;
 	font-weight: 400;
+=======
+
+.course-form input+label {
+  font-size: 1em;
+  font-weight: 400;
+>>>>>>> 1ba92955b1bc8adeb7f6c5f210f1a9c74c36f4e8
 }
+
 .course-form button {
 	width: 30%;
 	max-width: 100px;
 }
+
 .flex-container {
 	display: flex;
 }
+
 .register-container {
 	width: 100%;
 }
+
 .input-group {
 	display: flex;
 	flex-direction: column;
 	width: 100%;
 	gap: 15px;
 }
+
 .input-group input {
 	flex-grow: 1;
 }
+
 .horizontal-inputs {
 	display: flex;
 	width: 100%;
 	gap: 10px;
 }
+
 .justify-sb {
 	justify-content: space-between;
 }
+
 .integrante img {
 	max-width: 250px;
 }
+
 .integrante {
 	flex-grow: 1;
 	display: flex;
 }
+
 .integrantes-row {
 	flex-wrap: wrap;
 	width: 75%;
 	max-width: 800px;
 	gap: 50px;
 }
+
 .integrantes {
 	width: 100%;
 	align-items: center;
 }
+
 .integrantes-detail {
 	display: flex;
 	justify-content: space-between;
 	width: 100%;
 }
+
 table a {
+<<<<<<< HEAD
 	color: black;
 }
+=======
+  color: black;
+}
+>>>>>>> 1ba92955b1bc8adeb7f6c5f210f1a9c74c36f4e8

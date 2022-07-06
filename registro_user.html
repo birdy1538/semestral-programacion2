@@ -1,160 +1,92 @@
 <!DOCTYPE html>
 <html>
-	<head>
-		<meta charset="utf-8" />
-		<title>Registro de usuario</title>
-		<link rel="stylesheet" href="styles.css" type="text/css" />
-	</head>
 
-	<body class="flex-container center-center">
-		<div class="background-1">
-			<img src="./logo.png" id="login-logo-2" />
-			<svg
-				id="register-path-1"
-				width="1250"
-				height="621"
-				viewBox="0 0 1440 716"
-				fill="none"
-				xmlns="http://www.w3.org/2000/svg"
-			>
-				<g filter="url(#filter0_d_9_20)">
-					<path
-						fill-rule="evenodd"
-						clip-rule="evenodd"
-						d="M2456.01 588.242L2287.44 699.721C2214.03 566.793 2084.71 373.934 1886.43 294.03C1688.14 214.125 1429.07 231.576 1211.48 221.403C993.899 211.229 874.617 122.418 669.9 65.7567C465.183 9.09571 166.857 0.182952 54.8479 6.71821L-57.1609 13.2534L97.2396 -544.599L199.598 -516.268C301.957 -487.938 506.674 -431.277 711.391 -374.616C916.108 -317.955 1120.83 -261.294 1325.54 -204.633C1530.26 -147.972 1734.98 -91.3107 1939.69 -34.6497C2144.41 22.0113 2349.13 78.6723 2451.49 107.003L2553.85 135.333L2456.01 588.242Z"
-						fill="#DDEFE3"
-					/>
-					<path
-						fill-rule="evenodd"
-						clip-rule="evenodd"
-						d="M2456.01 588.242L2287.44 699.721C2214.03 566.793 2084.71 373.934 1886.43 294.03C1688.14 214.125 1429.07 231.576 1211.48 221.403C993.899 211.229 874.617 122.418 669.9 65.7567C465.183 9.09571 166.857 0.182952 54.8479 6.71821L-57.1609 13.2534L97.2396 -544.599L199.598 -516.268C301.957 -487.938 506.674 -431.277 711.391 -374.616C916.108 -317.955 1120.83 -261.294 1325.54 -204.633C1530.26 -147.972 1734.98 -91.3107 1939.69 -34.6497C2144.41 22.0113 2349.13 78.6723 2451.49 107.003L2553.85 135.333L2456.01 588.242Z"
-						stroke="#01200F"
-					/>
-				</g>
-				<defs>
-					<filter
-						id="filter0_d_9_20"
-						x="-72.1609"
-						y="-558.599"
-						width="2641.01"
-						height="1274.32"
-						filterUnits="userSpaceOnUse"
-						color-interpolation-filters="sRGB"
-					>
-						<feFlood flood-opacity="0" result="BackgroundImageFix" />
-						<feColorMatrix
-							in="SourceAlpha"
-							type="matrix"
-							values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
-							result="hardAlpha"
-						/>
-						<feOffset dy="1" />
-						<feGaussianBlur stdDeviation="7.5" />
-						<feComposite in2="hardAlpha" operator="out" />
-						<feColorMatrix
-							type="matrix"
-							values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.05 0"
-						/>
-						<feBlend
-							mode="normal"
-							in2="BackgroundImageFix"
-							result="effect1_dropShadow_9_20"
-						/>
-						<feBlend
-							mode="normal"
-							in="SourceGraphic"
-							in2="effect1_dropShadow_9_20"
-							result="shape"
-						/>
-					</filter>
-				</defs>
-			</svg>
-			<svg
-				id="register-path-2"
-				width="1000"
-				height="530 "
-				viewBox="0 0 1295 687"
-				fill="none"
-				xmlns="http://www.w3.org/2000/svg"
-			>
-				<g filter="url(#filter0_d_9_40)">
-					<path
-						fill-rule="evenodd"
-						clip-rule="evenodd"
-						d="M1279.5 747.5L1121 698.5C1019.37 753.067 777.282 614.186 615.646 645.188C454.01 676.191 324.671 598.66 202.57 506.853C80.4677 415.045 135.028 384.209 -1.82921 328.936C-138.686 273.663 -397.211 124.818 -454.573 69.7801L-511.936 14.7426L-689 453.159L-620.571 480.796C-552.143 508.432 -415.286 563.705 -278.429 618.978C-141.571 674.251 -4.7141 729.523 132.143 784.796C269 840.069 405.858 895.342 542.715 950.615C679.572 1005.89 816.429 1061.16 884.858 1088.8L953.286 1116.43L1279.5 747.5Z"
-						fill="#DDEFE3"
-					/>
-					<path
-						fill-rule="evenodd"
-						clip-rule="evenodd"
-						d="M1279.5 747.5L1121 698.5C1019.37 753.067 777.282 614.186 615.646 645.188C454.01 676.191 324.671 598.66 202.57 506.853C80.4677 415.045 135.028 384.209 -1.82921 328.936C-138.686 273.663 -397.211 124.818 -454.573 69.7801L-511.936 14.7426L-689 453.159L-620.571 480.796C-552.143 508.432 -415.286 563.705 -278.429 618.978C-141.571 674.251 -4.7141 729.523 132.143 784.796C269 840.069 405.858 895.342 542.715 950.615C679.572 1005.89 816.429 1061.16 884.858 1088.8L953.286 1116.43L1279.5 747.5Z"
-						stroke="#01200F"
-					/>
-				</g>
-				<defs>
-					<filter
-						id="filter0_d_9_40"
-						x="-704"
-						y="0.742584"
-						width="1998.5"
-						height="1131.69"
-						filterUnits="userSpaceOnUse"
-						color-interpolation-filters="sRGB"
-					>
-						<feFlood flood-opacity="0" result="BackgroundImageFix" />
-						<feColorMatrix
-							in="SourceAlpha"
-							type="matrix"
-							values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
-							result="hardAlpha"
-						/>
-						<feOffset dy="1" />
-						<feGaussianBlur stdDeviation="7.5" />
-						<feComposite in2="hardAlpha" operator="out" />
-						<feColorMatrix
-							type="matrix"
-							values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.05 0"
-						/>
-						<feBlend
-							mode="normal"
-							in2="BackgroundImageFix"
-							result="effect1_dropShadow_9_40"
-						/>
-						<feBlend
-							mode="normal"
-							in="SourceGraphic"
-							in2="effect1_dropShadow_9_40"
-							result="shape"
-						/>
-					</filter>
-				</defs>
-			</svg>
+<head>
+	<meta charset="utf-8" />
+	<title>Registro de usuario</title>
+	<link rel="stylesheet" href="styles.css" type="text/css" />
+</head>
 
-			<div id="login-container" class="flex-vertical center-center">
-				<h2>Registro de Usuario</h2>
-				<!-- formulario para recopilar datos  -->
-				<form id="form1" class="flex-vertical-container" action="registro.jsp">
-					<div>
-						<label for="nombre">Nombre</label>
-						<input placeholder="nombre" name="nombre" />
-					</div>
+<body class="flex-container center-center">
+	<div class="background-1">
+		<img src="./logo.png" id="login-logo-2" />
+		<svg id="register-path-1" width="1250" height="621" viewBox="0 0 1440 716" fill="none"
+			xmlns="http://www.w3.org/2000/svg">
+			<g filter="url(#filter0_d_9_20)">
+				<path fill-rule="evenodd" clip-rule="evenodd"
+					d="M2456.01 588.242L2287.44 699.721C2214.03 566.793 2084.71 373.934 1886.43 294.03C1688.14 214.125 1429.07 231.576 1211.48 221.403C993.899 211.229 874.617 122.418 669.9 65.7567C465.183 9.09571 166.857 0.182952 54.8479 6.71821L-57.1609 13.2534L97.2396 -544.599L199.598 -516.268C301.957 -487.938 506.674 -431.277 711.391 -374.616C916.108 -317.955 1120.83 -261.294 1325.54 -204.633C1530.26 -147.972 1734.98 -91.3107 1939.69 -34.6497C2144.41 22.0113 2349.13 78.6723 2451.49 107.003L2553.85 135.333L2456.01 588.242Z"
+					fill="#DDEFE3" />
+				<path fill-rule="evenodd" clip-rule="evenodd"
+					d="M2456.01 588.242L2287.44 699.721C2214.03 566.793 2084.71 373.934 1886.43 294.03C1688.14 214.125 1429.07 231.576 1211.48 221.403C993.899 211.229 874.617 122.418 669.9 65.7567C465.183 9.09571 166.857 0.182952 54.8479 6.71821L-57.1609 13.2534L97.2396 -544.599L199.598 -516.268C301.957 -487.938 506.674 -431.277 711.391 -374.616C916.108 -317.955 1120.83 -261.294 1325.54 -204.633C1530.26 -147.972 1734.98 -91.3107 1939.69 -34.6497C2144.41 22.0113 2349.13 78.6723 2451.49 107.003L2553.85 135.333L2456.01 588.242Z"
+					stroke="#01200F" />
+			</g>
+			<defs>
+				<filter id="filter0_d_9_20" x="-72.1609" y="-558.599" width="2641.01" height="1274.32"
+					filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+					<feFlood flood-opacity="0" result="BackgroundImageFix" />
+					<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
+						result="hardAlpha" />
+					<feOffset dy="1" />
+					<feGaussianBlur stdDeviation="7.5" />
+					<feComposite in2="hardAlpha" operator="out" />
+					<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.05 0" />
+					<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_9_20" />
+					<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_9_20" result="shape" />
+				</filter>
+			</defs>
+		</svg>
+		<svg id="register-path-2" width="1000" height="530 " viewBox="0 0 1295 687" fill="none"
+			xmlns="http://www.w3.org/2000/svg">
+			<g filter="url(#filter0_d_9_40)">
+				<path fill-rule="evenodd" clip-rule="evenodd"
+					d="M1279.5 747.5L1121 698.5C1019.37 753.067 777.282 614.186 615.646 645.188C454.01 676.191 324.671 598.66 202.57 506.853C80.4677 415.045 135.028 384.209 -1.82921 328.936C-138.686 273.663 -397.211 124.818 -454.573 69.7801L-511.936 14.7426L-689 453.159L-620.571 480.796C-552.143 508.432 -415.286 563.705 -278.429 618.978C-141.571 674.251 -4.7141 729.523 132.143 784.796C269 840.069 405.858 895.342 542.715 950.615C679.572 1005.89 816.429 1061.16 884.858 1088.8L953.286 1116.43L1279.5 747.5Z"
+					fill="#DDEFE3" />
+				<path fill-rule="evenodd" clip-rule="evenodd"
+					d="M1279.5 747.5L1121 698.5C1019.37 753.067 777.282 614.186 615.646 645.188C454.01 676.191 324.671 598.66 202.57 506.853C80.4677 415.045 135.028 384.209 -1.82921 328.936C-138.686 273.663 -397.211 124.818 -454.573 69.7801L-511.936 14.7426L-689 453.159L-620.571 480.796C-552.143 508.432 -415.286 563.705 -278.429 618.978C-141.571 674.251 -4.7141 729.523 132.143 784.796C269 840.069 405.858 895.342 542.715 950.615C679.572 1005.89 816.429 1061.16 884.858 1088.8L953.286 1116.43L1279.5 747.5Z"
+					stroke="#01200F" />
+			</g>
+			<defs>
+				<filter id="filter0_d_9_40" x="-704" y="0.742584" width="1998.5" height="1131.69"
+					filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+					<feFlood flood-opacity="0" result="BackgroundImageFix" />
+					<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
+						result="hardAlpha" />
+					<feOffset dy="1" />
+					<feGaussianBlur stdDeviation="7.5" />
+					<feComposite in2="hardAlpha" operator="out" />
+					<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.05 0" />
+					<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_9_40" />
+					<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_9_40" result="shape" />
+				</filter>
+			</defs>
+		</svg>
 
-					<div>
-						<label for="apellido">Apellido</label>
-						<input placeholder="apellido" name="apellido" />
-					</div>
-					<div>
-						<label for="edad">Edad</label>
-						<input placeholder="edad" name="edad" /><br />
-					</div>
-					<div>
-						<label for="contrasenia">Contrasenia</label>
-						<input placeholder="contrasenia" name="contrasenia" />
-					</div>
+		<div id="login-container" class="flex-vertical center-center">
+			<h2>Registro de Usuario</h2>
+			<!-- formulario para recopilar datos  -->
+			<form id="form1" class="flex-vertical-container" action="registro.jsp">
+				<div>
+					<label for="nombre">Nombre</label>
+					<input placeholder="nombre" name="nombre" />
+				</div>
 
-					<button type="submit">Enviar</button>
-				</form>
-			</div>
+				<div>
+					<label for="apellido">Apellido</label>
+					<input placeholder="apellido" name="apellido" />
+				</div>
+				<div>
+					<label for="edad">Edad</label>
+					<input placeholder="edad" name="edad" /><br />
+				</div>
+				<div>
+					<label for="contrasenia">Contrasenia</label>
+					<input placeholder="contrasenia" name="contrasenia" />
+				</div>
+
+				<button type="submit">Enviar</button>
+			</form>
 		</div>
-	</body>
+	</div>
+</body>
+
 </html>
