@@ -1,164 +1,162 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Inicio</title>
-    <!--Se trae el archivo css externo-->
-    <link rel="stylesheet" href="styles.css" media="screen" />
-    <!--Se introduce el ícono de la pestaña-->
-    <link rel="icon" type="image/x-icon" href="logoicon.ico" />
-  </head>
-  <body>
-    <header>
-      <!--Se crea el encabezado de la página con el logo y el menú a un lado con la ayuda de flex-->
-      <nav class="menu">
-        <div>
-          <img src="logo.png" alt="Logo" id="logoconfig" />
-        </div>
-        <ul>
-          <li>
-            <a href="home.html" id="active" class="navbarLinks">INICIO</a>
-          </li>
-          <li>
-            <a href="" class="navbarLinks"
-              >CURSOS <img src="arrow.png" alt="arrowdown" id="arrowdown"
-            /></a>
-            <ul>
-              <li>
-                <a href="registro_CN.html" class="navbarLinks"
-                  >Ciencias Naturales</a
-                >
-              </li>
-              <li>
-                <a href="registo_QB.html" class="navbarLinks"
-                  >Química & Biología</a
-                >
-              </li>
-              <li>
-                <a href="registro_Programacion.html" class="navbarLinks"
-                  >Programación</a
-                >
-              </li>
-            </ul>
-          </li>
-          <li>
-            <a href="referencia.html" class="navbarLinks">REFERENCIAS</a>
-          </li>
-          <li>
-            <a href="sobreNosotros.html" class="navbarLinks">CONTÁCTANOS</a>
-          </li>
-        </ul>
-      </nav>
-    </header>
-    <section class="sectionsize">
-      <!--Se introducen las tres noticias nacionales con el uso de tablas-->
-      <h1 class="pagetitle">Inicio</h1>
-      <div class="NewSection">
-        <table>
-          <tr>
-            <td>
-              <!--En la primera columna se introduce el video-->
-              <iframe
-                width="564"
-                height="341"
-                src="https://www.youtube.com/embed/n38v7AA5pmo"
-                title="Gran avance médico: Tecnología 'milagro' contra el parkinson y el temblor esencial"
-                frameborder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                allowfullscreen
-              ></iframe>
-              <br />
-              <p id="parrafos" align="center">
-                Para conocer más sobre este tema haga
-                <a href="" id="link">CLICK AQUÍ</a>
-              </p>
-            </td>
-            <td>
-              <!--En la segunda columna se introduce el nombre del deporte y una explicación-->
-              <h2>
-                Gran avance médico: Tecnología 'milagro' contra el parkinson y
-                el temblor esencial
-              </h2>
-              <p id="parrafos">
-                <br />
-                María Santos, de 80 años, había dejado viajar, incluso de salir
-                con amigas a tomar un café. Los temblores que sufre desde joven,
-                que se habían agudizado en los últimos años, le impedían
-                realizar actividades como escribir, coser o comer sin
-                desparramar los alimentos entre el plato y la boca.
-              </p>
-            </td>
-          </tr>
-          <tr>
-            <!--Se hace lo mismo que lo anterior, pero en la segunda linea de la tabla y así sucesivamente-->
-            <td>
-              <iframe
-                width="560"
-                height="315"
-                src="https://www.youtube.com/embed/XzBYAZ78j4E"
-                title="¿Una vacuna contra el VIH? La tecnología de ARN mensajero podría ser la solución"
-                frameborder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                allowfullscreen
-              ></iframe>
-              <p id="parrafos" align="center">
-                Para conocer más sobre este tema haga
-                <a href="" id="link">CLICK AQUÍ</a>
-              </p>
-            </td>
-            <td>
-              <h2>
-                ¿Una vacuna contra el VIH? La tecnología de ARN mensajero podría
-                ser la solución
-              </h2>
-              <p id="parrafos">
-                <br />
-                La farmacéutica Moderna y la Iniciativa Internacional por la
-                Vacuna contra el Sida empezaron la primera fase de estudios
-                clínicos de una vacuna contra el VIH. Este fármaco usa el
-                sistema de ARN mensajero, el mismo implementado en la vacuna
-                contra el Covid-19, una tecnología que podría ayudar a
-                contrarrestar la rapidez de las mutaciones del virus que provoca
-                el Sida.
-              </p>
-              <br />
-            </td>
-          </tr>
-          <tr>
-            <td>
-              <iframe
-                width="560"
-                height="315"
-                src="https://www.youtube.com/embed/kWpgadoYxaA"
-                title="Crean vacuna que podría combatir el cáncer - En Punto"
-                frameborder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                allowfullscreen
-              ></iframe>
-              <p id="parrafos" align="center">
-                Para conocer más sobre este tema haga
-                <a href="" id="link">CLICK AQUÍ</a>
-              </p>
-            </td>
-            <td>
-              <h2>Crean vacuna que podría combatir el cáncer</h2>
-              <p id="parrafos">
-                <br />
-                Científicos estadounidenses crearon una vacuna que podría usarse
-                para combatir el cáncer; su desarrollo se basa en una molécula
-                que ayuda a crear anticuerpos y a destruir las células
-                tumorales.
-              </p>
-            </td>
-          </tr>
-        </table>
-      </div>
-    </section>
-    <footer>
-      <!--El menú que se encuentra en el encabezado, ahora se coloca en el pie de la página, pero a la izquierda-->
-      <p id="borokotroko">Borokotroko Labs &copy;2022</p>
-    </footer>
-  </body>
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Inicio</title>
+		<!--Se trae el archivo css externo-->
+		<link rel="stylesheet" href="styles.css" media="screen" />
+		<!--Se introduce el ícono de la pestaña-->
+		<link rel="icon" type="image/x-icon" href="logoicon.ico" />
+	</head>
+	<body>
+		<header>
+			<!--Se crea el encabezado de la página con el logo y el menú a un lado con la ayuda de flex-->
+			<nav class="menu">
+				<div>
+					<img src="logo.png" alt="Logo" id="logoconfig" />
+				</div>
+				<ul>
+					<li>
+						<a href="home.html" id="active" class="navbarLinks">INICIO</a>
+					</li>
+					<li>
+						<a href="" class="navbarLinks"
+							>CURSOS <img src="arrow.png" alt="arrowdown" id="arrowdown"
+						/></a>
+						<ul>
+							<li>
+								<a href="registro_cn.html" class="navbarLinks"
+									>Ciencias Naturales</a
+								>
+							</li>
+							<li>
+								<a href="registro_qb.html" class="navbarLinks"
+									>Química & Biología</a
+								>
+							</li>
+							<li>
+								<a href="registro_prg.html" class="navbarLinks">Programación</a>
+							</li>
+						</ul>
+					</li>
+					<li>
+						<a href="referencia.html" class="navbarLinks">REFERENCIAS</a>
+					</li>
+					<li>
+						<a href="sobreNosotros.html" class="navbarLinks">CONTÁCTANOS</a>
+					</li>
+				</ul>
+			</nav>
+		</header>
+		<section class="sectionsize">
+			<!--Se introducen las tres noticias nacionales con el uso de tablas-->
+			<h1 class="pagetitle">Inicio</h1>
+			<div class="NewSection">
+				<table>
+					<tr>
+						<td>
+							<!--En la primera columna se introduce el video-->
+							<iframe
+								width="564"
+								height="341"
+								src="https://www.youtube.com/embed/n38v7AA5pmo"
+								title="Gran avance médico: Tecnología 'milagro' contra el parkinson y el temblor esencial"
+								frameborder="0"
+								allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+								allowfullscreen
+							></iframe>
+							<br />
+							<p id="parrafos" align="center">
+								Para conocer más sobre este tema haga
+								<a href="" id="link">CLICK AQUÍ</a>
+							</p>
+						</td>
+						<td>
+							<!--En la segunda columna se introduce el nombre del deporte y una explicación-->
+							<h2>
+								Gran avance médico: Tecnología 'milagro' contra el parkinson y
+								el temblor esencial
+							</h2>
+							<p id="parrafos">
+								<br />
+								María Santos, de 80 años, había dejado viajar, incluso de salir
+								con amigas a tomar un café. Los temblores que sufre desde joven,
+								que se habían agudizado en los últimos años, le impedían
+								realizar actividades como escribir, coser o comer sin
+								desparramar los alimentos entre el plato y la boca.
+							</p>
+						</td>
+					</tr>
+					<tr>
+						<!--Se hace lo mismo que lo anterior, pero en la segunda linea de la tabla y así sucesivamente-->
+						<td>
+							<iframe
+								width="560"
+								height="315"
+								src="https://www.youtube.com/embed/XzBYAZ78j4E"
+								title="¿Una vacuna contra el VIH? La tecnología de ARN mensajero podría ser la solución"
+								frameborder="0"
+								allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+								allowfullscreen
+							></iframe>
+							<p id="parrafos" align="center">
+								Para conocer más sobre este tema haga
+								<a href="" id="link">CLICK AQUÍ</a>
+							</p>
+						</td>
+						<td>
+							<h2>
+								¿Una vacuna contra el VIH? La tecnología de ARN mensajero podría
+								ser la solución
+							</h2>
+							<p id="parrafos">
+								<br />
+								La farmacéutica Moderna y la Iniciativa Internacional por la
+								Vacuna contra el Sida empezaron la primera fase de estudios
+								clínicos de una vacuna contra el VIH. Este fármaco usa el
+								sistema de ARN mensajero, el mismo implementado en la vacuna
+								contra el Covid-19, una tecnología que podría ayudar a
+								contrarrestar la rapidez de las mutaciones del virus que provoca
+								el Sida.
+							</p>
+							<br />
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<iframe
+								width="560"
+								height="315"
+								src="https://www.youtube.com/embed/kWpgadoYxaA"
+								title="Crean vacuna que podría combatir el cáncer - En Punto"
+								frameborder="0"
+								allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+								allowfullscreen
+							></iframe>
+							<p id="parrafos" align="center">
+								Para conocer más sobre este tema haga
+								<a href="" id="link">CLICK AQUÍ</a>
+							</p>
+						</td>
+						<td>
+							<h2>Crean vacuna que podría combatir el cáncer</h2>
+							<p id="parrafos">
+								<br />
+								Científicos estadounidenses crearon una vacuna que podría usarse
+								para combatir el cáncer; su desarrollo se basa en una molécula
+								que ayuda a crear anticuerpos y a destruir las células
+								tumorales.
+							</p>
+						</td>
+					</tr>
+				</table>
+			</div>
+		</section>
+		<footer>
+			<!--El menú que se encuentra en el encabezado, ahora se coloca en el pie de la página, pero a la izquierda-->
+			<p id="borokotroko">Borokotroko Labs &copy;2022</p>
+		</footer>
+	</body>
 </html>
