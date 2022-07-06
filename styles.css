@@ -217,8 +217,8 @@ body {
 input {
   padding: 7px 12px;
 }
-button,
-a[href] {
+form button,
+form a[href] {
   background: #104f55;
   border: none;
   padding: 5px 10px;
