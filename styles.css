@@ -1,339 +1,351 @@
 /* Estilo para el cuerpo */
 body {
-	margin: auto;
-	background-color: #01200f;
-	color: #d7e8dc;
-	font-family: 'Open Sans', Arial, sans-serif;
-	font-weight: 700;
+  margin: auto;
+  background-color: #01200f;
+  color: #d7e8dc;
+  font-family: "Open Sans", Arial, sans-serif;
+  font-weight: 700;
 }
 
 /* Estilo para el menú cdel encabezado */
 header {
-	background: #ddefe3;
-	font-family: 'Open Sans', Arial, sans-serif;
-	font-weight: 600;
+  background: #ddefe3;
+  font-family: "Open Sans", Arial, sans-serif;
+  font-weight: 600;
 }
 header .menu {
-	display: flex;
-	justify-content: space-around;
-	align-items: center;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 }
 header .menu ul {
-	list-style: none;
-	display: flex;
-	justify-content: space-between;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
 }
 .navbarLinks {
-	text-decoration: none;
-	font-size: 16px;
-	color: #01200f;
-	padding: 8px 15px;
-	display: block;
+  text-decoration: none;
+  font-size: 16px;
+  color: #01200f;
+  padding: 8px 15px;
+  display: block;
 }
 .navbarLinks:hover {
-	background: #a6bdad;
-	border-radius: 15px;
+  background: #a6bdad;
+  border-radius: 15px;
 }
 header .menu ul li ul {
-	display: flex;
-	flex-direction: column;
+  display: flex;
+  flex-direction: column;
 }
 header .menu ul li ul {
-	position: absolute;
-	background: #ddefe3;
+  position: absolute;
+  background: #ddefe3;
 }
 header .menu ul li ul li {
-	width: 180px;
-	position: relative;
+  width: 180px;
+  position: relative;
 }
 header .menu ul li ul {
-	display: none;
+  display: none;
 }
 header .menu ul li:hover > ul {
-	display: block;
+  display: block;
 }
 
 /* El link del menú de la página en la que estemos posicionados 
 tendrá un fondo oscuro para indicarle al usuario que el link se encuentra seleccionado.*/
 .menu #active {
-	color: #d7e8dc;
-	background-color: #01200f;
-	border-radius: 15px;
+  color: #d7e8dc;
+  background-color: #01200f;
+  border-radius: 15px;
 }
 
 /* Establcer el márgen para las secciones de las páginas */
 .sectionsize {
-	margin: 0px 120px 0px 120px;
+  margin: 0px 120px 0px 120px;
 }
 
 /* Estilo para el logo */
 #logoconfig {
-	height: 82px;
-	padding: 0px 60px 0px 0px;
+  height: 82px;
+  padding: 0px 60px 0px 0px;
 }
 
 /*Estilo para ajustar la flecha de cursos*/
 #arrowdown {
-	width: 10px;
-	padding: 0px 0px 2px 0px;
+  width: 10px;
+  padding: 0px 0px 2px 0px;
 }
 
 /* Estilo para los títulos que proporcionan al usuario información de dónde están ubicados*/
 .pagetitle {
-	padding: 15px 0px 0px 40px;
-	color: #cee5d5;
-	font-family: 'Open Sans', Arial, sans-serif;
-	font-weight: 720;
-	font-size: 50px;
-	margin: 20px;
+  padding: 15px 0px 0px 40px;
+  color: #cee5d5;
+  font-family: "Open Sans", Arial, sans-serif;
+  font-weight: 720;
+  font-size: 50px;
+  margin: 20px;
 }
 
 /* Estilo para algunas imágenes en home.html*/
 .imgconfig {
-	width: 150px;
-	float: right;
-	padding: 5px;
+  width: 150px;
+  float: right;
+  padding: 5px;
 }
 
 h2 {
-	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
-		'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-	font-weight: bold;
-	color: #cee5d5;
-	font-size: 25px;
-	vertical-align: top;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-weight: bold;
+  color: #cee5d5;
+  font-size: 25px;
+  vertical-align: top;
 }
 #labelHero {
-	font-size: 45px;
-	font-family: 'Open Sans', Arial, sans-serif;
-	font-weight: 600;
+  font-size: 45px;
+  font-family: "Open Sans", Arial, sans-serif;
+  font-weight: 600;
 }
 
 h3 {
-	font-family: 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode',
-		Geneva, Verdana, sans-serif;
-	font-weight: bold;
-	color: #cee5d5;
-	font-size: 25px;
-	padding: 15px 15px 0px 20px;
+  font-family: "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode",
+    Geneva, Verdana, sans-serif;
+  font-weight: bold;
+  color: #cee5d5;
+  font-size: 25px;
+  padding: 15px 15px 0px 20px;
 }
 
 /* Estilo los table datas de home.html*/
 td {
-	vertical-align: top;
-	padding: 20px 15px 40px 5px;
+  vertical-align: top;
+  padding: 20px 15px 40px 5px;
 }
 
 /* Estilo para los párrafos*/
 #parrafos {
-	font-family: Helvetica, sans-serif;
-	letter-spacing: 1.5px;
-	font-weight: 100;
-	font-size: small;
-	line-height: 20px;
+  font-family: Helvetica, sans-serif;
+  letter-spacing: 1.5px;
+  font-weight: 100;
+  font-size: small;
+  line-height: 20px;
 }
 
 #link {
-	font-family: 'Open Sans', Arial, sans-serif;
-	font-style: italic;
+  font-family: "Open Sans", Arial, sans-serif;
+  font-style: italic;
 }
 
 .NewSection {
-	margin: 0px 40px 0px 40px;
+  margin: 0px 40px 0px 40px;
 }
 
 #borokotroko {
-	font-family: 'Open Sans', Arial, sans-serif;
-	display: block;
-	color: #ddefe3;
-	font-size: 12px;
-	text-align: right;
-	text-decoration: none;
-	border-radius: 5px;
-	padding: 0px 30px 10px 30px;
+  font-family: "Open Sans", Arial, sans-serif;
+  display: block;
+  color: #ddefe3;
+  font-size: 12px;
+  text-align: right;
+  text-decoration: none;
+  border-radius: 5px;
+  padding: 0px 30px 10px 30px;
 }
 
 * {
-	margin: 0;
-	padding: 0;
-	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-	color: #ddefe3;
+  margin: 0;
+  padding: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: #ddefe3;
 }
 body {
-	background-color: #01200f;
+  background-color: #01200f;
 }
 #app {
-	width: 100%;
+  width: 100%;
 }
 .background-1 {
-	height: 100vh;
-	width: 100%;
-	background-image: url('/Pagina1.jpg');
-	background-color: black;
-	background-position: center; /* Center the image */
-	background-repeat: no-repeat; /* Do not repeat the image */
-	background-size: cover;
+  height: 100vh;
+  width: 100%;
+  background-image: url("/Pagina1.jpg");
+  background-color: black;
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover;
 }
 #login-path-1 {
-	position: absolute;
+  position: absolute;
 }
 #login-path-2 {
-	position: absolute;
-	right: 0px;
-	bottom: 0;
+  position: absolute;
+  right: 0px;
+  bottom: 0;
 }
 #login-logo-1 {
-	position: absolute;
-	width: 200px;
-	z-index: 2;
-	margin: 50px;
+  position: absolute;
+  width: 200px;
+  z-index: 2;
+  margin: 50px;
 }
 #login-container {
-	height: 100vh;
-	background-color: rgba(0, 0, 0, 0.5);
-	width: 100%;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 100%;
 }
 .flex-vertical {
-	display: flex;
-	flex-direction: column;
-	gap: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
 }
 #register-path-1,
 #register-path-2 {
-	position: absolute;
+  position: absolute;
 }
 #register-path-1 {
-	right: 0;
+  right: 0;
 }
 #register-path-2 {
-	bottom: 0;
+  bottom: 0;
 }
 #login-logo-2 {
-	position: absolute;
-	right: 0;
-	width: 200px;
-	z-index: 2;
-	margin: 25px;
+  position: absolute;
+  right: 0;
+  width: 200px;
+  z-index: 2;
+  margin: 25px;
 }
 .center-center {
-	justify-content: center;
-	align-items: center;
+  justify-content: center;
+  align-items: center;
 }
 input {
-	padding: 7px 12px;
+  padding: 7px 12px;
+}
+input {
+  color: black;
 }
 form button,
 form a[href] {
-	background: #104f55;
-	border: none;
-	padding: 5px 10px;
-	cursor: pointer;
-	font-weight: 600 !important;
-	text-decoration: none;
-	font-size: 0.9em;
-	text-align: center;
-	margin: 10px 7px;
-	border-radius: 10px;
+  background: #104f55;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  font-weight: 600 !important;
+  text-decoration: none;
+  font-size: 0.9em;
+  text-align: center;
+  margin: 10px 7px;
+  border-radius: 10px;
+}
+.elemento {
+  cursor: pointer;
+}
+.elemento:hover {
+  background-color: #031fa2;
 }
 form {
-	z-index: 10000;
+  z-index: 10000;
 }
 .hero {
-	height: 500px;
+  height: 500px;
 }
 .hero.ciencias-naturales {
-	background-image: url('/zebras.jpg');
-	background-color: black;
-	background-position: center; /* Center the image */
-	background-repeat: no-repeat; /* Do not repeat the image */
-	background-size: cover;
+  background-image: url("/zebras.jpg");
+  background-color: black;
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover;
 }
 .hero.quimica {
-	background-image: url('/Chemistry.jpg');
-	background-color: black;
-	background-position: center; /* Center the image */
-	background-repeat: no-repeat; /* Do not repeat the image */
-	background-size: cover;
+  background-image: url("/Chemistry.jpg");
+  background-color: black;
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover;
 }
 .hero.programacion {
-	background-image: url('/Programming.jpg');
-	background-color: black;
-	background-position: center; /* Center the image */
-	background-repeat: no-repeat; /* Do not repeat the image */
-	background-size: cover;
+  background-image: url("/Programming.jpg");
+  background-color: black;
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover;
 }
 .hero-blur {
-	background-color: rgba(0, 0, 0, 0.5);
-	display: flex;
-	height: 100%;
-	font-size: 2em;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  height: 100%;
+  font-size: 2em;
 }
 .course-form-continer h3 {
-	font-size: 2em;
+  font-size: 2em;
 }
 .course-form-continer {
-	width: 100%;
-	margin: 20px 0;
+  width: 100%;
+  margin: 20px 0;
 }
 .course-form {
-	width: 50%;
-	max-width: 500px;
-	gap: 25px;
+  width: 50%;
+  max-width: 500px;
+  gap: 25px;
 }
 .course-form label {
-	font-size: 1.2em;
-	font-weight: 700;
+  font-size: 1.2em;
+  font-weight: 700;
 }
 .course-form input + label {
-	font-size: 1em;
-	font-weight: 400;
+  font-size: 1em;
+  font-weight: 400;
 }
 .course-form button {
-	width: 30%;
-	max-width: 100px;
+  width: 30%;
+  max-width: 100px;
 }
 .flex-container {
-	display: flex;
+  display: flex;
 }
 .register-container {
-	width: 100%;
+  width: 100%;
 }
 .input-group {
-	display: flex;
-	flex-direction: column;
-	width: 100%;
-	gap: 15px;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  gap: 15px;
 }
 .input-group input {
-	flex-grow: 1;
+  flex-grow: 1;
 }
 .horizontal-inputs {
-	display: flex;
-	width: 100%;
-	gap: 10px;
+  display: flex;
+  width: 100%;
+  gap: 10px;
 }
 .justify-sb {
-	justify-content: space-between;
+  justify-content: space-between;
 }
 .integrante img {
-	max-width: 250px;
+  max-width: 250px;
 }
 .integrante {
-	flex-grow: 1;
-	display: flex;
+  flex-grow: 1;
+  display: flex;
 }
 .integrantes-row {
-	flex-wrap: wrap;
-	width: 75%;
-	max-width: 800px;
-	gap: 50px;
+  flex-wrap: wrap;
+  width: 75%;
+  max-width: 800px;
+  gap: 50px;
 }
 .integrantes {
-	width: 100%;
-	align-items: center;
+  width: 100%;
+  align-items: center;
 }
 .integrantes-detail {
-	display: flex;
-	justify-content: space-between;
-	width: 100%;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+table a {
+  color: black;
 }
