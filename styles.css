@@ -310,3 +310,25 @@ form {
 .justify-sb {
   justify-content: space-between;
 }
+.integrante img {
+  max-width: 250px;
+}
+.integrante {
+  flex-grow: 1;
+  display: flex;
+}
+.integrantes-row {
+  flex-wrap: wrap;
+  width: 75%;
+  max-width: 800px;
+  gap: 50px;
+}
+.integrantes {
+  width: 100%;
+  align-items: center;
+}
+.integrantes-detail {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
