@@ -1,51 +1,78 @@
 <!DOCTYPE html>
 <html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Química</title>
+    <!-- coneccion con el CSS  -->
+    <link rel="stylesheet" href="styles.css" />
+  </head>
 
-<head>
-	<meta charset="utf-8">
-	<title>Quimica y Biologia</title>
-	<!-- coneccion con el CSS  -->
-	<link rel="stylesheet" href="styles.css" />
-</head>
+  <body class="flex-container center-center">
+    <div id="app" class="flex-container">
+      <div class="register-container flex-vertical-container">
+        <div class="hero quimica">
+          <div class="hero-blur center-center">
+            <h2>Química</h2>
+          </div>
+        </div>
+        <!-- formulario para recopilar datos  -->
+        <div class="course-form-continer flex-container center-center">
+          <form
+            id="form1"
+            class="flex-vertical course-form center-center"
+            action="ciencias_naturales.jsp"
+          >
+            <h3>Registrate en este curso</h3>
+            <div class="horizontal-inputs">
+              <div class="input-group">
+                <label for="nombre">Nombre</label>
+                <input placeholder="nombre" name="nombre" />
+              </div>
 
-<body class="flex-container center-center">
-	<div id="app" class="flex-container">
-		<div class="register-container flex-vertical-container">
-			<h2>Curso de Quimica y Biologia</h2>
-			<!-- formulario para recopilar datos  -->
-			<form id="form1" class="flex-vertical-container" action="quimica_biologia.jsp">
-				<div class="input-group">
-					<label for="nombre">Nombre</label>
-					<input placeholder="nombre" name="nombre" />
-				</div>
+              <div class="input-group">
+                <label for="cedula">Cedula</label>
+                <input placeholder="cedula" name="cedula" />
+              </div>
+            </div>
+            <div class="input-group">
+              <label for="curso">Fechas de inicio de curso </label>
 
-				<div class="input-group">
-					<label for="cedula">Cedula</label>
-					<input placeholder="cedula" name="cedula" />
-
-				</div>
-				<div class="input-group">
-					<label for="curso">Fechas de inicio de curso </label>
-					
-					<div class="multiselect-container flex-container">
-						<div>
-						<input type="radio" id="julio" name="curso" value="20 de julio" />
-						<label for="julio">20 de julio</label>
-						</div>
-						<div>
-						<input type="radio" id="octubre" name="curso" value="24 de octubre" />
-						<label for="octubre">24 de octubre</label>
-						</div>
-						<input type="radio" id="noviembre" name="curso" value="14 de noviembre" />
-						<label for="noviembre">14 de noviembre</label>
-					</div>
-
-				</div>
-				<button type="submit">Enviar</button>
-			</form>
-		</div>
-	</div>
-
-</body>
-
+              <div
+                class="multiselect-container justify-sb center-center flex-container"
+              >
+                <div>
+                  <input
+                    type="radio"
+                    id="julio"
+                    name="curso"
+                    value="20 de julio"
+                  />
+                  <label for="julio">20 de julio</label>
+                </div>
+                <div>
+                  <input
+                    type="radio"
+                    id="octubre"
+                    name="curso"
+                    value="24 de octubre"
+                  />
+                  <label for="octubre">24 de octubre</label>
+                </div>
+                <div>
+                  <input
+                    type="radio"
+                    id="noviembre"
+                    name="curso"
+                    value="14 de noviembre"
+                  />
+                  <label for="noviembre">14 de noviembre</label>
+                </div>
+              </div>
+            </div>
+            <button type="submit">Enviar</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </body>
 </html>

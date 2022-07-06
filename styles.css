@@ -4,6 +4,12 @@
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   color: #ddefe3;
 }
+body {
+  background-color: #01200f;
+}
+#app {
+  width: 100%;
+}
 .background-1 {
   height: 100vh;
 
@@ -75,4 +81,81 @@ a[href] {
 }
 form {
   z-index: 10000;
+}
+.hero {
+  height: 500px;
+}
+.hero.ciencias-naturales {
+  background-image: url("/zebras.jpg");
+  background-color: black;
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover;
+}
+.hero.quimica {
+  background-image: url("/Chemistry.jpg");
+  background-color: black;
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover;
+}
+.hero.programacion {
+  background-image: url("/Programming.jpg");
+  background-color: black;
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover;
+}
+.hero-blur {
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  height: 100%;
+  font-size: 2em;
+}
+.course-form-continer h3 {
+  font-size: 2em;
+}
+.course-form-continer {
+  width: 100%;
+  margin: 20px 0;
+}
+.course-form {
+  width: 50%;
+  max-width: 500px;
+  gap: 25px;
+}
+.course-form label {
+  font-size: 1.2em;
+  font-weight: 700;
+}
+.course-form input + label {
+  font-size: 1em;
+  font-weight: 400;
+}
+.course-form button {
+  width: 30%;
+  max-width: 100px;
+}
+.flex-container {
+  display: flex;
+}
+.register-container {
+  width: 100%;
+}
+.input-group {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  gap: 15px;
+}
+.input-group input {
+  flex-grow: 1;
+}
+.horizontal-inputs {
+  display: flex;
+  width: 100%;
+  gap: 10px;
+}
+.justify-sb {
+  justify-content: space-between;
 }
