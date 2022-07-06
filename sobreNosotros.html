@@ -1,120 +1,134 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<meta charset="UTF-8" />
-		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
-		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<title>Contáctanos</title>
-	</head>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contáctanos</title>
+    <link rel="stylesheet" href="/styles.css" />
+  </head>
 
-	<body>
-		<header>
-			<!--Se crea el encabezado de la página con el logo y el menú a un lado con la ayuda de flex-->
-			<a href="welcome.html"
-				><img src="Logo.png" alt="Logo" id="logoconfigcontact"
-			/></a>
-		</header>
-		<nav>
-			<!--El menú que se encuentra en el encabezado, ahora se coloca en el pie de la página, pero a la izquierda-->
-			<ul class="menu">
-				<li id="bottomenu">
-					<a href="home.html">Home</a>
-				</li>
-				<li id="bottomenu">
-					<a>Cursos</a>
-					<ul class="dropdownmenu">
-						<li><a href="registro_CN.html">Ciencias Naturales</a></li>
-						<li><a href="registro_QB.html">Quimica y Biologia</a></li>
-						<li><a href="registro_Programacion.html">Programacion</a></li>
-					</ul>
-				</li>
-				<li id="bottomenu">
-					<a href="referencia.html">Referencias</a>
-				</li>
-				<li id="bottomenu">
-					<a href="sobreNosotros.html">Contáctanos</a>
-				</li>
-			</ul>
-		</nav>
-		<section>
-			<h1>Contáctanos</h1>
-			<table>
-				<tr>
-					<td>
-						<img
-							src="diego.jpg"
-							alt="diego"
-							class="imgconfigcont"
-							height="300"
-						/>
-					</td>
-					<td>
-						<div><span>Nombre</span></div>
-						<div>Diego Burgos</div>
-						<div><span>Cédula</span></div>
-						<div>2-748-875</div>
-						<div><span>Carrera</span></div>
-						<div>Ingenieria de Software</div>
-					</td>
-				</tr>
-				<tr>
-					<td>
-						<img
-							src="luis.jpeg"
-							alt="Luis"
-							class="imgconfigcont"
-							height="300"
-						/>
-					</td>
-					<td>
-						<div><span>Nombre</span></div>
-						<div>Luis Carreyo</div>
-						<div><span>Cédula</span></div>
-						<div>8-1067-2417</div>
-						<div><span>Carrera</span></div>
-						<div>Ingenieria de Software</div>
-					</td>
-				</tr>
-				<tr>
-					<td>
-						<img
-							src="ricky.jpeg"
-							alt="ricky"
-							class="imgconfigcont"
-							height="300"
-						/>
-					</td>
-					<td>
-						<div><span>Nombre</span></div>
-						<div>Ricky Pan</div>
-						<div><span>Cédula</span></div>
-						<div>8-947-657</div>
-						<div><span>Carrera</span></div>
-						<div>Ingenieria de Software</div>
-					</td>
-				</tr>
-				<tr>
-					<td>
-						<img
-							src="eivar.jpg"
-							alt="eivar"
-							class="imgconfigcont"
-							height="300"
-						/>
-					</td>
-					<td>
-						<div><span>Nombre</span></div>
-						<div>Eivar Morales</div>
-						<div><span>Cédula</span></div>
-						<div>8-954-794</div>
-						<div><span>Carrera</span></div>
-						<div>Ingenieria de Software</div>
-					</td>
-				</tr>
-			</table>
-		</section>
-		<footer>
-			<p id="borokotroko">Borokotroko Labs &copy;2022</p>
-		</footer>
-	</body>
+  <body>
+    <header>
+      <!--Se crea el encabezado de la página con el logo y el menú a un lado con la ayuda de flex-->
+      <nav class="menu">
+        <div>
+          <img src="logo.png" alt="Logo" id="logoconfig" />
+        </div>
+        <ul>
+          <li>
+            <a href="home.html" id="active" class="navbarLinks">INICIO</a>
+          </li>
+          <li>
+            <a href="" class="navbarLinks"
+              >CURSOS <img src="arrow.png" alt="arrowdown" id="arrowdown"
+            /></a>
+            <ul>
+              <li>
+                <a href="registro_CN.html" class="navbarLinks"
+                  >Ciencias Naturales</a
+                >
+              </li>
+              <li>
+                <a href="registo_QB.html" class="navbarLinks"
+                  >Química & Biología</a
+                >
+              </li>
+              <li>
+                <a href="registro_Programacion.html" class="navbarLinks"
+                  >Programación</a
+                >
+              </li>
+            </ul>
+          </li>
+          <li>
+            <a href="referencia.html" class="navbarLinks">REFERENCIAS</a>
+          </li>
+          <li>
+            <a href="sobreNosotros.html" class="navbarLinks">CONTÁCTANOS</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <section>
+      <h1>Contáctanos</h1>
+      <table>
+        <tr>
+          <td>
+            <img
+              src="diego.jpg"
+              alt="diego"
+              class="imgconfigcont"
+              height="300"
+            />
+          </td>
+          <td>
+            <div><span>Nombre</span></div>
+            <div>Diego Burgos</div>
+            <div><span>Cédula</span></div>
+            <div>2-748-875</div>
+            <div><span>Carrera</span></div>
+            <div>Ingenieria de Software</div>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <img
+              src="luis.jpeg"
+              alt="Luis"
+              class="imgconfigcont"
+              height="300"
+            />
+          </td>
+          <td>
+            <div><span>Nombre</span></div>
+            <div>Luis Carreyo</div>
+            <div><span>Cédula</span></div>
+            <div>8-1067-2417</div>
+            <div><span>Carrera</span></div>
+            <div>Ingenieria de Software</div>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <img
+              src="ricky.jpeg"
+              alt="ricky"
+              class="imgconfigcont"
+              height="300"
+            />
+          </td>
+          <td>
+            <div><span>Nombre</span></div>
+            <div>Ricky Pan</div>
+            <div><span>Cédula</span></div>
+            <div>8-947-657</div>
+            <div><span>Carrera</span></div>
+            <div>Ingenieria de Software</div>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <img
+              src="eivar.jpg"
+              alt="eivar"
+              class="imgconfigcont"
+              height="300"
+            />
+          </td>
+          <td>
+            <div><span>Nombre</span></div>
+            <div>Eivar Morales</div>
+            <div><span>Cédula</span></div>
+            <div>8-954-794</div>
+            <div><span>Carrera</span></div>
+            <div>Ingenieria de Software</div>
+          </td>
+        </tr>
+      </table>
+    </section>
+    <footer>
+      <p id="borokotroko">Borokotroko Labs &copy;2022</p>
+    </footer>
+  </body>
 </html>
