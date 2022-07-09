@@ -127,17 +127,16 @@ h3 {
 	padding: 15px 15px 0px 20px;
 }
 
-/* Estilo los table datas de home.html*/
-#tablaHome {
-	vertical-align: top;
-	padding: 20px 15px 40px 5px;
-}
-
 /*Estilo de la tabla periódica de referencia*/
 td {
 	vertical-align: top;
 	padding: 7.5px 7.5px 7.5px 7.5px;
 	text-align-last: center;
+}
+
+table .tdhome {
+	vertical-align: top;
+	padding: 7.5px 7.5px 7.5px 7.5px;
 }
 
 /* Estilo para los párrafos*/
