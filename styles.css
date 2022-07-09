@@ -57,14 +57,8 @@ header .menu ul li ul li {
 header .menu ul li ul {
 	display: none;
 }
-<<<<<<< HEAD
 header .menu ul li:hover > ul {
 	display: block;
-=======
-
-header .menu ul li:hover>ul {
-  display: block;
->>>>>>> 1ba92955b1bc8adeb7f6c5f210f1a9c74c36f4e8
 }
 
 /* El link del menú de la página en la que estemos posicionados 
@@ -142,7 +136,8 @@ h3 {
 /*Estilo de la tabla periódica de referencia*/
 td {
 	vertical-align: top;
-	padding: 0px 15px 15px 0px;
+	padding: 7.5px 7.5px 7.5px 7.5px;
+	text-align-last: center;
 }
 
 /* Estilo para los párrafos*/
@@ -157,6 +152,8 @@ td {
 #link {
 	font-family: 'Open Sans', Arial, sans-serif;
 	font-style: italic;
+	font-weight: bold;
+	color: #0f7d75;
 }
 
 .NewSection {
@@ -175,7 +172,6 @@ td {
 }
 
 * {
-	margin: 0;
 	padding: 0;
 	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 	color: #ddefe3;
@@ -190,15 +186,15 @@ body {
 }
 
 .background-1 {
-  height: 100vh;
-  width: 100%;
-  background-image: url("./Pagina1.jpg");
-  background-color: black;
-  background-position: center;
-  /* Center the image */
-  background-repeat: no-repeat;
-  /* Do not repeat the image */
-  background-size: cover;
+	height: 100vh;
+	width: 100%;
+	background-image: url('./Pagina1.jpg');
+	background-color: black;
+	background-position: center;
+	/* Center the image */
+	background-repeat: no-repeat;
+	/* Do not repeat the image */
+	background-size: cover;
 }
 
 #login-path-1 {
@@ -295,57 +291,31 @@ form {
 }
 
 .hero.ciencias-naturales {
-<<<<<<< HEAD
 	background-image: url('/zebras.jpg');
 	background-color: black;
 	background-position: center; /* Center the image */
 	background-repeat: no-repeat; /* Do not repeat the image */
 	background-size: cover;
-=======
-  background-image: url("./zebras.jpg");
-  background-color: black;
-  background-position: center;
-  /* Center the image */
-  background-repeat: no-repeat;
-  /* Do not repeat the image */
-  background-size: cover;
->>>>>>> 1ba92955b1bc8adeb7f6c5f210f1a9c74c36f4e8
 }
 
 .hero.quimica {
-<<<<<<< HEAD
-	background-image: url('/Chemistry.jpg');
+	background-image: url('./Chemistry.jpg');
 	background-color: black;
-	background-position: center; /* Center the image */
-	background-repeat: no-repeat; /* Do not repeat the image */
+	background-position: center;
+	/* Center the image */
+	background-repeat: no-repeat;
+	/* Do not repeat the image */
 	background-size: cover;
-=======
-  background-image: url("./Chemistry.jpg");
-  background-color: black;
-  background-position: center;
-  /* Center the image */
-  background-repeat: no-repeat;
-  /* Do not repeat the image */
-  background-size: cover;
->>>>>>> 1ba92955b1bc8adeb7f6c5f210f1a9c74c36f4e8
 }
 
 .hero.programacion {
-<<<<<<< HEAD
-	background-image: url('/Programming.jpg');
+	background-image: url('./Programming.jpg');
 	background-color: black;
-	background-position: center; /* Center the image */
-	background-repeat: no-repeat; /* Do not repeat the image */
+	background-position: center;
+	/* Center the image */
+	background-repeat: no-repeat;
+	/* Do not repeat the image */
 	background-size: cover;
-=======
-  background-image: url("./Programming.jpg");
-  background-color: black;
-  background-position: center;
-  /* Center the image */
-  background-repeat: no-repeat;
-  /* Do not repeat the image */
-  background-size: cover;
->>>>>>> 1ba92955b1bc8adeb7f6c5f210f1a9c74c36f4e8
 }
 
 .hero-blur {
@@ -374,16 +344,10 @@ form {
 	font-size: 1.2em;
 	font-weight: 700;
 }
-<<<<<<< HEAD
+
 .course-form input + label {
 	font-size: 1em;
 	font-weight: 400;
-=======
-
-.course-form input+label {
-  font-size: 1em;
-  font-weight: 400;
->>>>>>> 1ba92955b1bc8adeb7f6c5f210f1a9c74c36f4e8
 }
 
 .course-form button {
@@ -448,10 +412,5 @@ form {
 }
 
 table a {
-<<<<<<< HEAD
 	color: black;
 }
-=======
-  color: black;
-}
->>>>>>> 1ba92955b1bc8adeb7f6c5f210f1a9c74c36f4e8
