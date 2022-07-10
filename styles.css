@@ -14,18 +14,21 @@ header {
 	font-weight: 600;
 }
 
+/*Estilo del menu en el header*/
 header .menu {
 	display: flex;
 	justify-content: space-around;
 	align-items: center;
 }
 
+/*Estilo para la lista sin órden del menu*/
 header .menu ul {
 	list-style: none;
 	display: flex;
 	justify-content: space-between;
 }
 
+/*Estilo para los links de la barra de navegación*/
 .navbarLinks {
 	text-decoration: none;
 	font-size: 16px;
@@ -34,6 +37,7 @@ header .menu ul {
 	display: block;
 }
 
+/*Cuando se pasa el mouse por encima de estos links cambiarán de color*/
 .navbarLinks:hover {
 	background: #a6bdad;
 	border-radius: 15px;
@@ -57,6 +61,7 @@ header .menu ul li ul li {
 header .menu ul li ul {
 	display: none;
 }
+
 header .menu ul li:hover > ul {
 	display: block;
 }
@@ -112,6 +117,7 @@ h2 {
 	vertical-align: top;
 }
 
+/*Estilo para el título que se encuentra por encima de la imagen de las páginas de registro*/
 #labelHero {
 	font-size: 45px;
 	font-family: 'Open Sans', Arial, sans-serif;
@@ -142,6 +148,7 @@ td {
 	line-height: 20px;
 }
 
+/*Estilo para los links que dicen click aquí*/
 #link {
 	font-family: 'Open Sans', Arial, sans-serif;
 	font-style: italic;
@@ -149,10 +156,12 @@ td {
 	color: #0f7d75;
 }
 
+/*Márgenes de la sección*/
 .NewSection {
 	margin: 0px 40px 0px 40px;
 }
 
+/*Estilo para el crédito a borokotroko*/
 #borokotroko {
 	font-family: 'Open Sans', Arial, sans-serif;
 	display: block;
@@ -178,6 +187,7 @@ body {
 	width: 100%;
 }
 
+/*Estilo para la imagen de fondo de la página de login*/
 .background-1 {
 	height: 100vh;
 	width: 100%;
@@ -232,6 +242,7 @@ body {
 	bottom: 0;
 }
 
+/*Estilo para el logo de la página de login*/
 #login-logo-2 {
 	position: absolute;
 	right: 0;
@@ -267,10 +278,12 @@ form a[href] {
 	border-radius: 10px;
 }
 
+/*Permitir cursor en cada uno de los elementos de la tabla periódica*/
 .elemento {
 	cursor: pointer;
 }
 
+/*Cuando se pase el mouse por algún elemento de la tabla el cuadro del elemento se tornará azul*/
 .elemento:hover {
 	background-color: #031fa2;
 }
@@ -279,10 +292,12 @@ form {
 	z-index: 10000;
 }
 
+/**/
 .hero {
 	height: 500px;
 }
 
+/*Estilo para imagen del registro de ciencias naturales*/
 .hero.ciencias-naturales {
 	background-image: url('/zebras.jpg');
 	background-color: black;
@@ -291,6 +306,7 @@ form {
 	background-size: cover;
 }
 
+/*Estilo para imagen del registro de química*/
 .hero.quimica {
 	background-image: url('./Chemistry.jpg');
 	background-color: black;
@@ -301,6 +317,7 @@ form {
 	background-size: cover;
 }
 
+/*Estilo para imagen del registro de programación*/
 .hero.programacion {
 	background-image: url('./Programming.jpg');
 	background-color: black;
@@ -311,6 +328,7 @@ form {
 	background-size: cover;
 }
 
+/*Logra que las imagenes obtengan una forma borrosa*/
 .hero-blur {
 	background-color: rgba(0, 0, 0, 0.5);
 	display: flex;
