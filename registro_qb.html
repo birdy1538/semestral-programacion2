@@ -1,93 +1,120 @@
 <!DOCTYPE html>
 <html>
+	<head>
+		<meta charset="utf-8" />
+		<title>Química y Biología</title>
+		<!-- coneccion con el CSS  -->
+		<link rel="stylesheet" href="./styles.css" />
+	</head>
 
-<head>
-	<meta charset="utf-8" />
-	<title>Química y Biología</title>
-	<!-- coneccion con el CSS  -->
-	<link rel="stylesheet" href="./styles.css" />
-</head>
-
-<body class="flex-container center-center">
-	<div id="app" class="flex-container">
-		<div class="register-container flex-vertical-container">
-			<header>
-				<!--Se crea el encabezado de la página con el logo y el menú a un lado con la ayuda de flex-->
-				<nav class="menu">
-					<div>
-						<img src="./logo.png" alt="Logo" id="logoconfig" />
+	<body class="flex-container center-center">
+		<div id="app" class="flex-container">
+			<div class="register-container flex-vertical-container">
+				<header>
+					<!--Se crea el encabezado de la página con el logo y el menú a un lado con la ayuda de flex-->
+					<nav class="menu">
+						<div>
+							<img src="./logo.png" alt="Logo" id="logoconfig" />
+						</div>
+						<ul>
+							<li>
+								<a href="home.html" class="navbarLinks">INICIO</a>
+							</li>
+							<li>
+								<a href="" class="navbarLinks" id="active"
+									>CURSOS
+									<img src="./arrow_select.png" alt="arrowdown" id="arrowdown"
+								/></a>
+								<ul>
+									<li>
+										<a href="registro_cn.html" class="navbarLinks"
+											>Ciencias Naturales</a
+										>
+									</li>
+									<li>
+										<a href="registro_qb.html" class="navbarLinks"
+											>Química & Biología</a
+										>
+									</li>
+									<li>
+										<a href="registro_prg.html" class="navbarLinks"
+											>Programación</a
+										>
+									</li>
+								</ul>
+							</li>
+							<li>
+								<a href="referencia.html" class="navbarLinks">REFERENCIAS</a>
+							</li>
+							<li>
+								<a href="sobreNosotros.html" class="navbarLinks">CONTÁCTANOS</a>
+							</li>
+						</ul>
+					</nav>
+				</header>
+				<div class="hero quimica">
+					<div class="hero-blur center-center">
+						<h2 id="labelHero">Química y Biología</h2>
 					</div>
-					<ul>
-						<li>
-							<a href="home.html" class="navbarLinks">INICIO</a>
-						</li>
-						<li>
-							<a href="" class="navbarLinks" id="active">CURSOS
-								<img src="./arrow_select.png" alt="arrowdown" id="arrowdown" /></a>
-							<ul>
-								<li>
-									<a href="registro_cn.html" class="navbarLinks">Ciencias Naturales</a>
-								</li>
-								<li>
-									<a href="registro_qb.html" class="navbarLinks">Química & Biología</a>
-								</li>
-								<li>
-									<a href="registro_prg.html" class="navbarLinks">Programación</a>
-								</li>
-							</ul>
-						</li>
-						<li>
-							<a href="referencia.html" class="navbarLinks">REFERENCIAS</a>
-						</li>
-						<li>
-							<a href="sobreNosotros.html" class="navbarLinks">CONTÁCTANOS</a>
-						</li>
-					</ul>
-				</nav>
-			</header>
-			<div class="hero quimica">
-				<div class="hero-blur center-center">
-					<h2 id="labelHero">Química y Biología</h2>
+				</div>
+				<!-- formulario para recopilar datos  -->
+				<div class="course-form-continer flex-container center-center">
+					<form
+						id="form1"
+						class="flex-vertical course-form center-center"
+						action="ciencias_naturales.jsp"
+					>
+						<h3>Registrate en este curso</h3>
+						<div class="horizontal-inputs">
+							<div class="input-group">
+								<label for="nombre">Nombre</label>
+								<input placeholder="nombre" name="nombre" />
+							</div>
+
+							<div class="input-group">
+								<label for="cedula">Cedula</label>
+								<input placeholder="cedula" name="cedula" />
+							</div>
+						</div>
+						<div class="input-group">
+							<label for="curso">Fechas de inicio de curso </label>
+
+							<div
+								class="multiselect-container justify-sb center-center flex-container"
+							>
+								<div>
+									<input
+										type="radio"
+										id="julio"
+										name="curso"
+										value="20 de julio"
+									/>
+									<label for="julio">20 de julio</label>
+								</div>
+								<div>
+									<input
+										type="radio"
+										id="octubre"
+										name="curso"
+										value="24 de octubre"
+									/>
+									<label for="octubre">24 de octubre</label>
+								</div>
+								<div>
+									<input
+										type="radio"
+										id="noviembre"
+										name="curso"
+										value="14 de noviembre"
+									/>
+									<label for="noviembre">14 de noviembre</label>
+								</div>
+							</div>
+						</div>
+						<button type="submit"><a href="HOME.html">Enviar</a></button>
+					</form>
 				</div>
 			</div>
-			<!-- formulario para recopilar datos  -->
-			<div class="course-form-continer flex-container center-center">
-				<form id="form1" class="flex-vertical course-form center-center" action="ciencias_naturales.jsp">
-					<h3>Registrate en este curso</h3>
-					<div class="horizontal-inputs">
-						<div class="input-group">
-							<label for="nombre">Nombre</label>
-							<input placeholder="nombre" name="nombre" />
-						</div>
-
-						<div class="input-group">
-							<label for="cedula">Cedula</label>
-							<input placeholder="cedula" name="cedula" />
-						</div>
-					</div>
-					<div class="input-group">
-						<label for="curso">Fechas de inicio de curso </label>
-
-						<div class="multiselect-container justify-sb center-center flex-container">
-							<div>
-								<input type="radio" id="julio" name="curso" value="20 de julio" />
-								<label for="julio">20 de julio</label>
-							</div>
-							<div>
-								<input type="radio" id="octubre" name="curso" value="24 de octubre" />
-								<label for="octubre">24 de octubre</label>
-							</div>
-							<div>
-								<input type="radio" id="noviembre" name="curso" value="14 de noviembre" />
-								<label for="noviembre">14 de noviembre</label>
-							</div>
-						</div>
-					</div>
-					<button type="submit">Enviar</button>
-				</form>
-			</div>
 		</div>
-	</div>
-</body>
-
+	</body>
 </html>
