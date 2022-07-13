@@ -7,7 +7,7 @@
   <title>Exito_prog</title>
 </head>
 
-<!-- coneccion con la base de datos  -->
+<!-- conexión con la base de datos  -->
 <%@page import="java.sql.*" %>
 <%
 //declaración de variables y almacenamiento de valores

@@ -7,7 +7,7 @@
   <title>Exito_reg</title>
 </head>
 
-<!-- coneccion con la base de datos  -->
+<!-- conexión con la base de datos  -->
 <%@page import="java.sql.*" %>
 <%
 // declaracion de variables y almacenamos los valores 
